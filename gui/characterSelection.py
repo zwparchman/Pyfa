@@ -78,7 +78,6 @@ class CharacterSelection(wx.Panel):
         self.mainFrame.Bind(GE.CHAR_LIST_UPDATED, self.refreshCharacterList)
         self.mainFrame.Bind(GE.FIT_CHANGED, self.fitChanged)
 
-        self.SetMinSize(wx.Size(25, -1))
         self.toggleRefreshButton()
 
         self.charChoice.Enable(False)
